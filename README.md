@@ -92,6 +92,4 @@ All simulated errors are recorded in `result['errors']` and visible in the saved
 
 - `main.py`: request calls were commented out — uncommented and added result printing.
 - `src/testing/test_framework.py`: YAML command strings were passed as `str` to the socket client which expects `bytes` — fixed with `.encode('utf-8')`.
-- `src/utils/logger.py`: logger had no handlers attached — added `FileHandler` and `StreamHandler`.
 - `config/config.yaml`: `analysis` and `result_management` sections were empty — filled in with valid values.
-- `Ammeters/Greenlee_Ammeter.py`: print statement used the `Ω` symbol which Windows console (cp1255 encoding) cannot render, causing the emulator to crash on first connection — replaced with `Ohm`.
