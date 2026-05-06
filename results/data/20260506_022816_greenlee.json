@@ -1,0 +1,32 @@
+{
+  "id": "3c9ff83d-0056-4f59-9e9a-74883c92fa0c",
+  "ammeter_type": "greenlee",
+  "timestamp": "2026-05-06T02:28:16",
+  "duration_seconds": 9.004,
+  "requested_measurements": 10,
+  "actual_measurements": 8,
+  "measurements": [
+    0.8999891637961931,
+    0.07965318229257004,
+    0.2787284707204981,
+    0.14085980706498447,
+    0.21721499708648948,
+    0.34924916634269043,
+    0.40294815939274736,
+    0.2629111732622382
+  ],
+  "stats": {
+    "mean": 0.3289442649948014,
+    "median": 0.2708198219913681,
+    "std_dev": 0.2532272761169282,
+    "min": 0.07965318229257004,
+    "max": 0.8999891637961931
+  },
+  "errors": [
+    "sample 1: simulated drop",
+    "sample 2: simulated outlier",
+    "sample 4: simulated outlier",
+    "sample 7: simulated drop",
+    "sample 10: simulated outlier"
+  ]
+}
